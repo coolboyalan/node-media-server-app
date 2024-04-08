@@ -1,0 +1,23 @@
+/* Center the video player and play button */
+#videoElement {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* Adjust width as needed */
+}
+
+#playButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue color */
+  color: #fff; /* White color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+#playButton:hover {
+  background-color: #0056b3; /* Darker blue color */
+}
